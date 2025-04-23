@@ -9,14 +9,14 @@ const QuotePage = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchQuote()); // ✅ Fetch one quote on mount
+    dispatch(fetchQuote()); 
   }, [dispatch]);
 
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>Quote Page</h1>
       <DisplayQuote />
-      <FetchQuote /> {/* ✅ Add this to show the button */}
+      <FetchQuote /> {}
     </div>
   );
 };
