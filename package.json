@@ -42,5 +42,14 @@
       "last 1 safari version"
     ]
   },
+  
+  "engines": {
+    "node": "16.x"
+  },
+  "build": {
+    "env": {
+      "NODE_VERSION": "16"
+    }
+  },
   "proxy": "https://indian-quotes-api.vercel.app"
 }
